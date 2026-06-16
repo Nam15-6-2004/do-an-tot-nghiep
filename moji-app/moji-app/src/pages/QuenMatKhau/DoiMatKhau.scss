@@ -1,0 +1,44 @@
+.forgot-password-container {
+  background: #fff;
+  display: flex;
+  margin: 40px 0;
+  align-items: center;
+  justify-content: center;
+
+  .card {
+    max-width: 600px;
+    width: 100%;
+    border-color: #ddd;
+
+    .card-header {
+      background: #fff;
+      border-bottom: 2px solid #fbb6c2;
+      color: #fbb6c2;
+      font-weight: 500;
+      font-size: 1.25rem;
+      text-align: center;
+    }
+
+    label {
+      font-size: 1.125rem;
+    }
+
+    input.form-control {
+      font-size: 1.125rem;
+    }
+
+    .btn-pink {
+      background-color: #fbb6c2;
+      border: none;
+      color: white;
+      font-size: 1.125rem;
+      font-weight: 500;
+
+      &:hover,
+      &:focus {
+        background-color: #f99fb3;
+        color: white;
+      }
+    }
+  }
+}

@@ -1,0 +1,96 @@
+/// tất cả
+.allmapne {
+  .map-section {
+    margin-bottom: 40px;
+
+    .section-header-wrapper {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+
+    .section-header {
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 17px;
+      color: #000;
+      margin-left: 45px;
+    }
+
+    .detail-link {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 17px;
+      color: #000;
+      cursor: pointer;
+      user-select: none;
+      margin-right: 45px;
+
+      svg {
+        font-size: 18px;
+        font-weight: 900;
+        margin-left: 4px;
+      }
+      &:hover {
+        color: #f9a9b9;
+      }
+    }
+
+    .map-container {
+      border: 8px solid #f4b6b6;
+      max-width: 1024px;
+      margin: 0 auto;
+
+      .map-image {
+        width: 100%;
+        height: 500px;
+        display: block;
+      }
+    }
+  }
+}
+// hà nội map
+.HaNoiMap {
+  .location-title {
+    color: #f497a7;
+    font-weight: 700;
+    font-size: 1.5rem;
+  }
+
+  .info-text {
+    font-weight: 700;
+  }
+
+  .icon {
+    color: #4a4a4a;
+    width: 20px;
+    margin-right: 8px;
+    font-size: 18px;
+  }
+
+  .location-info > div {
+    margin-bottom: 0.75rem;
+  }
+
+  .map-embed iframe {
+    width: 100%;
+    height: 180px;
+    border: 0;
+  }
+
+  .location-row {
+    margin-bottom: 4rem;
+  }
+
+  @media (max-width: 575.98px) {
+    .location-title {
+      font-size: 1.25rem;
+    }
+  }
+}
+.he-thong-cua-hang {
+  .text-pink {
+    color: #f9a9b9 !important;
+  }
+}

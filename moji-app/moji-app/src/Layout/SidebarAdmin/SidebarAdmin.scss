@@ -1,0 +1,51 @@
+@import "../../styles/variables";
+.sidebar {
+  position: fixed;
+  top: 70px;
+  left: 0;
+  width: 300px;
+  height: 100vh;
+  background-color: white;
+  box-shadow: 1px 1px 10px rgba(13, 110, 253, 0.2);
+  transition: width 0.3s ease;
+
+  &.closed {
+    width: 80px;
+  }
+
+  .nav-options {
+    list-style: none;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    .nav-option {
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      padding: 10px 3px;
+      font-size: 14px;
+      color: #0f0e0e77;
+      text-decoration: none;
+      transition: all 0.3s ease;
+
+      .nav-img {
+        font-size: 20px;
+        color: $brand;
+      }
+
+      .nav-text {
+        flex-grow: 1;
+        white-space: nowrap;
+      }
+
+      &:hover,
+      &.active {
+        background-color: #e9e7e7;
+        border-left: 3px solid $brand;
+        color: #000;
+      }
+    }
+  }
+}

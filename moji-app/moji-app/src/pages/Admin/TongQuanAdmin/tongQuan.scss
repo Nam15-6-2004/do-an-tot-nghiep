@@ -1,0 +1,117 @@
+.tongQuanNe {
+  .card {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 0.075);
+  }
+
+  // Icon styles
+  .icon-circle {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icon-bg-green {
+    background-color: #d9f5e1;
+  }
+  .icon-bg-blue {
+    background-color: #d9e9fc;
+  }
+  .icon-bg-yellow {
+    background-color: #fff1d6;
+  }
+  .icon-bg-red {
+    background-color: #fce6e6;
+  }
+
+  .text-green {
+    color: rgb(12, 166, 12) !important;
+  }
+  .text-red {
+    color: red !important;
+  }
+
+  // Value and label styles
+  .currency-symbol {
+    font-weight: 700;
+    font-size: 1.25rem;
+    vertical-align: middle;
+    margin-right: 0.15rem;
+  }
+
+  .value-large {
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+  }
+
+  .label-small {
+    font-weight: 600;
+    font-size: 0.875rem;
+    color: #4a4a4a;
+  }
+
+  .subtext {
+    font-size: 0.75rem;
+    color: #6c757d;
+  }
+
+  // Card header
+  .card-header {
+    font-weight: 600;
+    font-size: 1rem;
+    color: #4a4a4a;
+    border-bottom: 1px solid #dee2e6;
+    padding: 0.75rem 1rem;
+  }
+
+  // Table styles
+  .table {
+    thead {
+      th {
+        background-color: #f8f9fa;
+        font-weight: 600;
+        font-size: 0.9rem;
+      }
+    }
+
+    tbody {
+      tr {
+        td {
+          font-size: 0.875rem;
+        }
+      }
+    }
+  }
+
+  .tables-row {
+    gap: 1rem;
+  }
+
+  // .badge {
+  //   padding: 6px 12px;
+  //   border-radius: 12px;
+  //   font-size: 0.85rem;
+  //   font-weight: 500;
+  //   color: #fff;
+
+  //   &.badge-hoanthanh {
+  //     background-color: #28a745; // xanh lá
+  //   }
+
+  //   &.badge-choduyet {
+  //     background-color: #f0ad4e; // vàng cam
+  //   }
+
+  //   &.badge-dahuy {
+  //     background-color: #dc3545; // đỏ
+  //   }
+
+  //   &.badge-default {
+  //     background-color: #6c757d; // xám mặc định
+  //   }
+  // }
+}

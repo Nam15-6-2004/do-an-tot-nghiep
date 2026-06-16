@@ -1,0 +1,43 @@
+.admin-layout {
+  display: flex;
+  flex-direction: column;
+}
+
+.admin-content {
+  display: flex;
+  transition: all 0.3s ease;
+}
+
+.sidebar {
+  width: 250px;
+  transition: width 0.3s ease;
+  background: #f8f9fa;
+  padding: 20px;
+}
+
+.sidebar.closed {
+  width: 70px;
+  padding: 10px;
+
+  .nav-text {
+    display: none;
+  }
+}
+
+.main-content {
+  flex-grow: 1;
+  padding: 20px;
+  transition: margin-left 0.3s ease;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 75px;
+}
+
+.with-sidebar {
+  margin-left: 260px;
+}
+
+.full-width {
+  margin-left: 80px;
+}

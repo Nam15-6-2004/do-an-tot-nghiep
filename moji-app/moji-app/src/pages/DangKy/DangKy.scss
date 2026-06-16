@@ -1,0 +1,19 @@
+@import "../../styles/variables";
+
+.btn-dangKy {
+  background-color: $brand;
+  color: #333;
+  border: none;
+  padding: 7px 10px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  font-weight: 500;
+
+  &:hover {
+    background-color: $brand-10;
+  }
+
+  &:active {
+    background-color: $brand-15;
+  }
+}

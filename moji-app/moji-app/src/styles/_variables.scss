@@ -1,0 +1,11 @@
+$brand: #0d6efd;
+$brand-10: darken($brand, 10%);
+$brand-15: darken($brand, 15%);
+$brand-light-30: lighten($brand, 30%);
+$brand-light-35: lighten($brand, 35%);
+
+// Alert/Warning palette
+$danger: #d0021b; // strong red (prices, totals)
+$accent-danger: #f04e23; // accent red (badges, CTA)
+$accent-danger-dark: #d8431a; // hover/active for accent red
+$danger-muted: #d9534f; // muted red (headings)

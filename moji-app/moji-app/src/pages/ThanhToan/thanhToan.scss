@@ -1,0 +1,93 @@
+@import "../../styles/variables";
+
+.checkout-page {
+  background-color: lighten($brand, 40%);
+  padding: 20px;
+
+  .section-title {
+    font-weight: bold;
+    color: $danger-muted;
+    display: flex;
+    align-items: center;
+
+    .step-number {
+      background-color: $brand;
+      color: white;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 14px;
+      margin-right: 5px;
+    }
+  }
+
+  .product-price {
+    font-size: 14px;
+    color: #6c757d;
+    margin-top: 5px;
+  }
+
+  .form-control {
+    margin-bottom: 10px;
+  }
+
+  .highlight-box {
+    background: #fff3cd;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+
+  .discount-box {
+    display: flex;
+    align-items: center;
+
+    input {
+      flex: 1;
+      height: 40px;
+    }
+
+    .apDung {
+      height: 40px;
+      padding: 5px 15px;
+      font-size: 14px;
+      border-radius: 5px;
+    }
+  }
+
+  .btn-pink {
+    background-color: $brand;
+    color: #333;
+    border: none;
+    transition: 0.3s;
+
+    &:hover {
+      background-color: $brand-10;
+    }
+
+    &.apDung {
+      height: 40px;
+      font-size: 14px;
+      padding: 5px 15px;
+      border-radius: 5px;
+      margin-bottom: 10px;
+    }
+
+    &.thanhToan {
+      height: 45px;
+      font-size: 16px;
+      font-weight: bold;
+      border-radius: 8px;
+      display: block;
+      margin-left: auto;
+    }
+  }
+
+  .table th,
+  .table td {
+    vertical-align: middle;
+  }
+}

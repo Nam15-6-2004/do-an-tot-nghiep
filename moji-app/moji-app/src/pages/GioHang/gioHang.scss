@@ -1,0 +1,77 @@
+@import "../../styles/variables";
+
+.cart-container {
+  font-family: Arial, sans-serif;
+
+  .table th,
+  .table td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  .table {
+    border-collapse: separate;
+    border-spacing: 0 10px;
+  }
+
+  .note {
+    margin-top: 20px;
+  }
+
+  .hover-name:hover {
+    color: $brand;
+  }
+
+  .img-cart {
+    max-width: 100px;
+    max-height: 100px;
+    width: 100%;
+    padding: 5px;
+  }
+  .total {
+    font-weight: bold;
+    color: $brand;
+    font-size: 1.5rem;
+  }
+  .btn-xoa {
+    border: none;
+    background-color: white;
+    &:hover {
+      color: $brand;
+    }
+  }
+
+  .btn-custom {
+    background-color: rgba($brand, 0.92);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    &:hover {
+      background-color: $brand-10;
+    }
+  }
+  .btn-thanhToan {
+    background-color: white;
+    color: $brand;
+    border: 1px solid $brand;
+    padding: 10px 20px;
+    border-radius: 20px;
+    margin-right: 10px;
+    &:hover {
+      background-color: $brand-10;
+      color: white;
+    }
+  }
+
+  .quantity-input {
+    width: 45px;
+    padding-left: 10px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    &:focus {
+      outline: none;
+    }
+  }
+}

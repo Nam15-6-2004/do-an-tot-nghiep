@@ -1,0 +1,12 @@
+{
+    "mcpServers": {
+        "mysql": {
+            "command": "npx",
+            "args": [
+                "-y",
+                "@modelcontextprotocol/server-mysql",
+                "mysql://luubanam:nam12235@localhost:3307/web"
+            ]
+        }
+    }
+}
